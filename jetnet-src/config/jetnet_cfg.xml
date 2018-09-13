@@ -1,0 +1,22 @@
+<root>
+	<cell name="huber">
+		<cip>192.168.0.1</cip>
+		<cport>1011</cport>
+		<cno>1</cno>
+		<channel_size>1024000</channel_size>
+		<hub_cno>1</hub_cno>
+		<hub_eno>1</hub_eno>
+		<module_path>./service/?.so</module_path>
+		<modules>huber,jlua</modules>
+	</cell>
+	<cell name="gate1">
+		<cip>192.168.0.1</cip>
+		<cport>1011</cport>
+		<cno>2</cno>
+		<channel_size>1024000</channel_size>
+		<hub_cno>1</hub_cno>
+		<hub_eno>1</hub_eno>
+		<module_path>./service/?.so</module_path>
+		<modules>gate,jlua</modules>
+	</cell>
+</root>
